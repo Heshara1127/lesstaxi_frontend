@@ -5,8 +5,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import DealCard from "../components/DealCard";
 import Pagination from "../components/Pagination";
-
-const API = process.env.NEXT_PUBLIC_API_URL;
+import { BASEURL } from "@/app/App";
 
 export default function HomeContent() {
   const [deals, setDeals] = useState([]);
@@ -18,7 +17,7 @@ export default function HomeContent() {
     let mounted = true;
     setLoading(true);
     axios
-      .get(`${API}/api/deals`)
+      .get(`${BASEURL}/api/deals`)
       .then((res) => {
         if (mounted) setDeals(res.data);
       })

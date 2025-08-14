@@ -7,11 +7,11 @@ This is the **frontend** of the LessTaxi application, built with **Next.js**.
 ### 1. Install Dependencies
 
 ```bash
-cd frontend
+
 npm install
 
 ## 2. Run Development Server
-cd frontend
+
 npm install
 
 ## 2. Run Development Server

@@ -11,6 +11,10 @@ cd frontend
 npm install
 
 ## 2. Run Development Server
+cd frontend
+npm install
+
+## 2. Run Development Server
 npm run dev
 
 ## 3. Build for Production

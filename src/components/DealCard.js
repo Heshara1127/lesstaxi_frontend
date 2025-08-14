@@ -78,7 +78,6 @@ export default function DealCard({ deal }) {
               </div>
             </div>
 
-            {/* Timer */}
             <div className="mb-4 text-blue-950 ">
               <Timer expiry={expiry} />
             </div>

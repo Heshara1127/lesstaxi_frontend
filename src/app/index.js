@@ -28,12 +28,6 @@ export default function Home() {
     return () => (mounted = false);
   }, []);
 
-  // search & filter (simple)
-  const filtered = deals.filter((d) =>
-    d.title.toLowerCase().includes(q.toLowerCase())
-  );
-
-  // pagination
   const total = filtered.length;
   const start = (page - 1) * perPage;
   const paged = filtered.slice(start, start + perPage);

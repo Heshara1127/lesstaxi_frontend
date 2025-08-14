@@ -21,7 +21,6 @@ export default function Timer({ expiry }) {
   return (
     <div className="flex justify-end">
       <div className="flex flex-col items-center space-y-2 sm:flex-row sm:space-y-0 sm:space-x-2">
-        {/* Hours */}
         <div className="flex flex-col items-center">
           <div className="border-2 border-black rounded-lg p-1 min-w-[50px] text-center md:p-2">
             <div className="text-sm font-bold text-blue-950 md:text-3xl">
@@ -31,7 +30,6 @@ export default function Timer({ expiry }) {
           <div className="text-xs text-gray-600 mt-1">Hours</div>
         </div>
 
-        {/* Minutes */}
         <div className="flex flex-col items-center">
           <div className="border-2 border-black rounded-lg p-1 min-w-[50px] text-center md:p-2">
             <div className="text-sm font-bold text-blue-950 md:text-3xl">
@@ -41,7 +39,6 @@ export default function Timer({ expiry }) {
           <div className="text-xs text-gray-600 mt-1">Minutes</div>
         </div>
 
-        {/* Seconds */}
         <div className="flex flex-col items-center">
           <div className="border-2 border-black rounded-lg p-1 min-w-[50px] text-center md:p-2">
             <div className="text-sm font-bold text-blue-950 md:text-3xl">
